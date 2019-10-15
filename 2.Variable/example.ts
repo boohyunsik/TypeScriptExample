@@ -66,7 +66,7 @@ class Human {   // 이 클래스의 이름은 Human이고, 개발자가 "사람"
 }
 
 
-var hyunsik: Human      // hyunsik이라는 이름을 갖는, Human타입의 변수를 선언했습니다. 그러나 아직 내부의 height, weight, name은 값이 정해지지 않았습니다.
+var hyunsik = new Human      // hyunsik이라는 이름을 갖는, Human타입의 변수를 선언했습니다. 그러나 아직 내부의 height, weight, name은 값이 정해지지 않았습니다.
 hyunsik.height = 180    // hyunsik이라는 Human타입을 갖는 변수의 height에 180이라는 숫자를 대입합니다.
 hyunsik.weight = 70     // hyunsik이라는 Human타입을 갖는 변수의 weight에 70이라는 숫자를 대입합니다.
 hyunsik.name = "Hyunsik"    // hyunsik이라는 Human타입을 갖는 변수의 name에 "Hyunsik"이라는 문자열을 대입합니다.
